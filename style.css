@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.navbar a, .navbar h4{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+.heading{
+    margin-top: 80px;
+    text-transform: uppercase;
+
+
+}
+.heading h1{
+    font-size: 9vw;
+    opacity: 0.7;
+    margin-left: 40px;
+}
+
+.blocktext{
+    width: fit-content;
+    /* background-color: aqua; */
+    margin-left: 130px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.blocktext h5{
+    text-align: end;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+   
+    
+}
+
+.secHeading{
+    margin-top: 50px;
+    padding-right: 30px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.secHeading h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1vw;
+    
+}
+
+.herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 0 50px;
+    font-weight: 700;
+    
+   
+}
+
+.herofooter a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.herofooter .circleset{
+    display: flex;
+    gap: 10px;
+ 
+
+}
+.circleset .circle{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.secondPage{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 50px;
+}
+
+.secondPage .box{
+    width: 100%;
+    height: calc(100% / 3);
+    border-bottom: 2px solid gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    position: relative;
+   
+
+
+}
+.secondPage #box1{
+    border-top: 2px solid gray;
+}
+
+.box h1{
+    font-size: 7vw;
+    opacity: 0.7;
+
+
+}
+
+.box h6{
+    font-size: 13px;
+
+}
+
+.box img{
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    z-index: 999;
+    /* display: none; */
+}
+
+
+.about{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 10vw 10vw;
+    /* height: 100vh; */
+    gap: 60px;
+    padding-left: 30vw;
+
+}
+
+.about img{
+
+    width: 250px;
+}
+.abouttext{
+    width: 25rem;
+    /* font-size: 1.3re; */
+    font-weight: 300;
+
+    
+}
+
+.abouttext h5{
+    text-transform: uppercase;
+    opacity: .7;
+    margin-bottom: 10px;
+
+}
+
+.abouttext p{
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.abouttext a{
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 12px 22px;
+    border-radius: 100px;
+}
+
+.footerUpper{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    font-weight: 550;
+}
+
+.footerUpper h5{
+    margin-bottom: 10px;
+    opacity: 0.8;
+    
+}
+.footerUpper a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+.footer{
+    background-color:  black;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    font-weight: 600;
+
+}
+
+
+.footer .rightfooter{
+    display: flex;
+    gap: 30px
+}
+
+.footer .leftfooter {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.minicircle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    mix-blend-mode: difference;
+    opacity: 0;
+}
+
+
+.bounding{
+    width: fit-content;
+    /* background-color: greenyellow; */
+    overflow: hidden;
+
+}
+
+.bounding .boundingelm{
+    transform: translateY(100%);
+}
+
+
